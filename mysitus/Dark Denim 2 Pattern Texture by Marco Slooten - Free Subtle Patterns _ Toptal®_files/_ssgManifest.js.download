@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002F","\u002F[slug]","\u002Fpage\u002F[page]","\u002Fpatterns","\u002Fsubmit","\u002Ftag\u002F[tag]","\u002Ftag\u002F[tag]\u002Fpage\u002F[page]","\u002Ftag\u002Fall"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

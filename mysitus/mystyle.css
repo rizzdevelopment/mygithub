@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* style */
+
+body {
+    font: 16px/28px arial,sans-serif;
+    background-color: #ffffff  ;
+    color: #000000;
+    background-image: url(y-so-serious-white.png);
+}
+
+.container {
+   width: 600px;
+   margin: auto;
+   background-color: #fff;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(0, 68, 255);
+    padding: 5px;
+}
+
+.header a:hover {
+    background-color: #0088ff;
+}
+
+.hero {
+    height: 250px;
+    background-image: url(hero1.png);
+    background-size: cover;
+    background-position: 0 -50px;
+    border-bottom: 5px solid blue;
+    border-top: 5px solid rgb(255, 0, 255);
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.content .penulis a {
+    color: blue;
+    text-decoration: none;
+}
+
+
+.content p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #5e5e5e;
+    padding: 10px;
+}
+
+.footer .copy {
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
